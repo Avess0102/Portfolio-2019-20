@@ -144,3 +144,12 @@ hr{
 #instagram svg{
   fill: pink;
 }
+.instagram-logo {
+  path {
+    fill: #000;
+  }
+  circle: #000;
+  .logo {
+    fill: #333;
+  }
+}
