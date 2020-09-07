@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+ }
+ body
+ {
+  background-image: url(le.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 18px;
+  }
+
+  li
+  {
+	  display:inline-block;
+  }
+
+  .social-widget
+    {
+    position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+    }
+
+.li
+  {
+  width: 300px;
+  padding: 10px;
+  letter spaccing: 1px;
+  margin: 10px;
+  }
+
+ li
+ {  display: inline-block;
+ }
+.social-button
+  {
+   width: 300px;
+   padding: 10px;
+   Letter-spacing: 1px;
+   margin: 10px;
+  }
+
+.facebook
+  {
+    background-color: #385998;
+  }
+
+.twitter
+   {
+   background-color: #55acee;
+   }
+ .Github
+    {
+      background-color: gray;
+    }
+
+
+a
+   {
+    text-decoration: none;
+    color: white;
+   }
+
+.social-text
+  {
+   width: 150px;
+   border-left: 1px solid rgba(255,255,255,0.5);
+   border-right: 1px solid;
+   rgba(255,255,255,0.5);
+   padding-left: 10px;
+  }
+
+.right-text
+  {
+   padding-left: 10px;
+   font-size: 12px;
+  }
+
+.fa
+  {
+  width: 30px;
+	text-align: center;
+  }
+
+.Instagram
+   {
+   background-color: #e4405f;
+   }
+
+
+.social-button:hover
+{
+ background-color:black;
+ transition: 1s;
+}
+
+.home{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  	cursor: pointer;
+  	font-family: 'Titillium Web', sans-serif;
+  	color: #333;
+    text-decoration: none;
+  	border-radius: 10px;
+  margin: 5px;
+  transition: 1s;
+
+}
+
+.home a{
+  	cursor: pointer;
+  	height: 60px;
+  	width: 120px;
+  	font-family: 'Titillium Web', sans-serif;
+  	color: #333;
+    text-decoration: none;
+  	border-radius: 10px;
+  	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  	background: white;
+  	margin: 5px;
+  	transition: 1s;
+    text-align: center;
+}
+
+.home a:hover{
+  background-color: black;
+  color: #EAF6F6;
+  width: 102px;
+  overflow: hidden;
+  transition: 0.7s;
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 3px 1px 3px 1px white;
+}

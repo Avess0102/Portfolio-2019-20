@@ -1,0 +1,115 @@
+
+      body{
+        background: url("ca.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #eaf6f6
+      }
+      hr{
+        border-style: none;
+        border-top-style: dashed;
+        border-color: lightblue;
+        border-width: 2px;
+
+      }
+      h1{
+        text-align: center;
+        color: #44BFBF;
+        display: block;
+      }
+      h1:hover{
+
+          background-color: #66BFBF;
+          color: black;
+          transition: 0.5s;
+
+      }
+
+      h2{
+        color: #66BFBF;
+        text-align: center;
+        display: block;
+        overflow: hidden;
+      }
+      h2:hover{
+        background-color: #66BFBF;
+        color: black;
+        transition: 0.5s;
+
+      }
+      .color{
+        border-style: none;
+        border-top-style: dotted;
+        border-color: black;
+        border-width: 2px;
+
+
+      }
+      p{
+        text-align: center;
+      }
+
+      li{
+        align-content: center;
+      }
+      table{
+        align-items: stretch ;
+      }
+
+      .card{
+        font-family: sans-serif;
+        background-color: lightblue;
+        width: 100%;
+      }
+      .card a{
+        display: block;
+        color: black;
+        font-size: 2em;
+        text-align: center;
+        padding: 20px;
+      }
+      .card a:hover{
+        background-color: black;
+        color:white;
+      }
+      .home{
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        	cursor: pointer;
+        	font-family: 'Titillium Web', sans-serif;
+        	color: #333;
+          text-decoration: none;
+        	border-radius: 10px;
+        margin: 5px;
+        transition: 0.7s;
+
+      }
+
+      .home a{
+        	cursor: pointer;
+        	height: 55px;
+        	width: 118px;
+        	font-family: 'Titillium Web', sans-serif;
+        	color: #333;
+          text-decoration: none;
+        	border-radius: 10px;
+        	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        	background: lightblue;
+        	margin: 5px;
+        	transition: 0.7s;
+          text-align: center;
+      }
+
+      .home a:hover{
+        background-color: black;
+        color: #EAF6F6;
+        width: 102px;
+        overflow: hidden;
+        transition: 0.7s;
+        text-align: center;
+        padding-top: 10px;
+        text-shadow: 3px 0px 3px white;
+      }
