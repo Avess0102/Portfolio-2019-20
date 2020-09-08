@@ -5,6 +5,7 @@
 body
 {
   background: url(da.jpg);
+        background-attachment: fixed;
   color: #EAF6F6;
 }
 .home{
